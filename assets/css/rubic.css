@@ -11,6 +11,32 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float a {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-float img {
+  width: 100%;
+  height: auto;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900");
 :root {
   --blue: #79A9F5;
